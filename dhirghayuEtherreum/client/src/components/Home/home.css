@@ -1,0 +1,148 @@
+/* Default styles */
+
+.hero {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url('../Assets/background.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 700px;
+}
+
+.hero-content {
+  display: inline-block;
+  margin-top: 15%;
+  margin-left: 30%;
+  margin-right: 20%;
+  width: 700px;
+  position: relative;
+}
+
+.hero-content h1 {
+  font-size: 62px;
+  margin-top: 0;
+  color: #fff;
+}
+
+.hero-content p {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 1px;
+  margin-right: 6%;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-left: 26px;
+}
+
+.buttons button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.buttons button:hover {
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 1s;
+}
+
+.buttons button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.buttons button:hover a {
+  color: #fff;
+}
+
+.features {
+  margin-top: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.features p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  flex-basis: 25%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  margin-left: 15px;
+  transition: 0.5s;
+}
+
+.col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer h3 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.footer p {
+  color: #777;
+}
+
+/* Responsive styles */
+
+@media (max-width: 1200px) {
+  .hero-content {
+    width: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-content {
+    margin-left: 20%;
+    margin-right: 10%;
+    width: 400px;
+  }
+
+  .hero-content h1 {
+    font-size: 48px;
+  }
+}
+

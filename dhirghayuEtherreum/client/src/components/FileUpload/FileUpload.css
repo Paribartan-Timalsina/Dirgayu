@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap'); 
+
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Poppins",sans-serif;
+}
+
+.box1
+{
+  margin-top:10px;
+  width:600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:2rem 1rem;
+  background-color: #fff;
+  border-radius: center;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+.box1 img
+{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  align-content: center; 
+  padding-bottom: 10px;
+  margin-bottom: 3px;
+}
+
+.box1 h1
+{
+  font-size: 25px;
+  margin-left: 9.5rem; 
+  margin-top: 20px;
+}
+
+.box1 label,span
+{
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.box1 .btn2
+{
+    margin-left: 8rem;
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    padding: 6px 0;
+    border-radius: 10px;
+    outline:none;
+    border:none;
+    width: 40%;
+    color:#fff;
+    cursor:pointer;
+    background:rgb(17,107,143);
+  }
+  
+  .btn1:hover{
+    background: rgb(17,107,143,0.8);
+  } 
+.first
+{
+  width:400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:2rem 1rem;
+  background-color: none;
+  border-radius: center;
+  margin-top: none;
+}
+.share
+{
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-left:50px;
+  margin-right: auto;
+  margin-top:10px;
+}
+.share:hover{
+  background: rgb(17,107,143,0.8);
+} 

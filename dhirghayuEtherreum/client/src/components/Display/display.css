@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap'); 
+
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Poppins",sans-serif;
+}
+
+.motherbox
+
+{
+  width:400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:2rem 1rem;
+  background-color: none;
+  border-radius: center;
+}
+
+
+.address{
+        width:70%;
+        outline:none;
+        border:1px solid #fff;
+        padding:20px 20px;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #e4e4e4;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+      
+}
+.getdatabtn
+{
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-left:45px;
+  margin-right: auto;
+}

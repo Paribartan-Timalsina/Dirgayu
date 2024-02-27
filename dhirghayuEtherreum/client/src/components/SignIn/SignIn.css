@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Poppins",sans-serif;
+}
+
+body{
+  background:#dfe9f5;
+}
+
+.wrapper1
+{
+  margin-top: 60px;
+  width:400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:2rem 1rem;
+  background-color: #fff;
+  border-radius: center;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}  
+
+.wrapper1 img
+{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  align-content: center; 
+  padding-bottom: 2px;
+  margin-bottom: 3px;
+}
+
+.wrapper1 h1
+{
+  text-align: center;
+  font-size: 2.4rem;
+  color:#021725;
+  margin-bottom:1.2rem;
+
+}
+
+form input
+{
+  font-size: 1.075rem;
+  width:92%;
+  outline:none;
+  border:1px solid #fff;
+  padding:12px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  margin-left: 1rem;
+  background: #e4e4e4;
+}
+.wrapper1 .btn1
+{
+    margin-left: 1.1rem;
+
+    font-size: 1.2rem;
+    margin-top: 2.5rem;
+    padding: 11px 0;
+    border-radius: 10px;
+    outline:none;
+    border:none;
+    width: 90%;
+    color:#fff;
+    cursor:pointer;
+    background:rgb(17,107,143);
+  }
+  
+  .btn1:hover{
+    background: rgb(17,107,143,0.8);
+  } 
+
+.member
+{
+  font-size:0.8rem;
+  margin-top:0.4rem;
+  color:#636363;
+  margin-left: 4.6rem;
+}
+
+.member a{
+  font-size: small;
+  text-decoration: none;
+  color: Red;
+  }
+
+.wrapper input:hover{
+  opacity: 0.7;
+}
